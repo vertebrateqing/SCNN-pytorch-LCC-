@@ -5,16 +5,6 @@ SCNN is a segmentation-tasked lane detection algorithm, described in ['Spatial A
 This repository contains a re-implementation in Pytorch.
 
 
-
-### Updates
-
-- 2019 / 08 / 14: Code refined including more convenient test & evaluation script.
-- 2019 / 08 / 12: Trained model on both dataset provided.
-- 2019 / 05 / 08: Evaluation is provided.
-- 2019 / 04 / 23: Trained model converted from [official t7 model](https://github.com/XingangPan/SCNN#Testing) is provided.
-
-<br/>
-
 ## Data preparation
 
 ### CULane
@@ -129,11 +119,6 @@ python demo_test.py   -i demo/demo.jpg
    python train.py --exp_dir ./experiments/exp0 [--resume/-r]
    ```
 
-4. Monitor on tensorboard:
-
-   ```bash
-   tensorboard --logdir='experiments/exp0'
-   ```
 
 **Note**
 
