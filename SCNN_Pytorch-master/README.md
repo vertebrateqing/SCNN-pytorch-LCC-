@@ -5,9 +5,13 @@ SCNN is a segmentation-tasked lane detection algorithm, described in ['Spatial A
 This repository contains a re-implementation in Pytorch.
 
 部分文件需要自己阅读代码修改路径,改动如下：
+
 1.去掉tensorboard功能，创建txt文档保存loss信息。
+
 2.修改了model.py中bceloss问题
+
 3.改进了不能多gpu训练的问题
+
 4.依照论文调整了学习率防止过拟合。
 
 ## Data preparation
