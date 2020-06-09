@@ -3,7 +3,7 @@
 SCNN is a segmentation-tasked lane detection algorithm, described in ['Spatial As Deep: Spatial CNN for Traffic Scene Understanding'](https://arxiv.org/abs/1712.06080). The [official implementation](<https://github.com/XingangPan/SCNN>) is in lua torch.
 
 This repository contains a re-implementation in Pytorch.
-
+修改了model.py中bceloss问题，改进了不能多gpu训练的问题，依照论文调整了学习率防止过拟合
 
 ## Data preparation
 
